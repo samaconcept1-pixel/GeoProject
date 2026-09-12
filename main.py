@@ -52,8 +52,7 @@ def create_app(config_path: Optional[str] = None) -> FastAPI:
             config.app.projects_root_dir, config.app.sync_interval_minutes,
         )
         tasks: list[asyncio.Task] = []
-        # Synchro d'indexation au démarrage : rapide et sans LLM (le robot AI
-        # est volontairement lancé à la main, cf. POST /api/extract).
+        # Synchro d'indexation au démarrage : rapide et sans LLM.
         await asyncio.to_thread(worker.sync_once)
         tasks.append(asyncio.create_task(worker.run()))
         try:

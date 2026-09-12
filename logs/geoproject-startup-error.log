@@ -1,0 +1,562 @@
+INFO:     Started server process [13556]
+INFO:     Waiting for application startup.
+2026-09-12 15:26:34,607 INFO samaconcept: Démarrage — racine projets : Z:\ (intervalle sync : 15 min)
+2026-09-12 15:26:38,509 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:26:38.509511+00:00'}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-09-12 15:28:42,218 INFO app.ai_agent: Extraction LLM du dossier : 0 prospection
+2026-09-12 15:28:45,516 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-12 15:28:47,987 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:28:49,787 INFO app.ai_agent: project.yaml écrit : Z:\0 prospection\project.yaml
+2026-09-12 15:28:52,110 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:28:52.110609+00:00'}
+2026-09-12 15:28:54,197 INFO app.ai_agent: Extraction LLM du dossier : 6 villas
+2026-09-12 15:28:58,001 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:28:58,020 INFO app.ai_agent: project.yaml écrit : Z:\6 villas\project.yaml
+2026-09-12 15:28:59,489 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:28:59.489655+00:00'}
+2026-09-12 15:29:01,568 INFO app.ai_agent: Extraction LLM du dossier : _HajHicham_LotissementTF91812
+2026-09-12 15:29:04,713 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:04.713344+00:00'}
+2026-09-12 15:29:05,105 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:29:05,112 INFO app.ai_agent: project.yaml écrit : Z:\_HajHicham_LotissementTF91812\project.yaml
+2026-09-12 15:29:06,591 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:06.591923+00:00'}
+2026-09-12 15:29:07,250 WARNING app.ai_agent: Moteur Tesseract absent pour Whatsapp Scan 7 septembre 2026 at 09.43.27.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:29:09,300 INFO app.ai_agent: Extraction LLM du dossier : Abaakil
+2026-09-12 15:29:12,079 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:12.079965+00:00'}
+2026-09-12 15:29:12,661 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:29:12,877 WARNING app.ai_agent: Moteur Tesseract absent pour Whatsapp Scan 7 septembre 2026 at 09.43.27.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:29:12,884 INFO app.ai_agent: project.yaml écrit : Z:\Abaakil\project.yaml
+2026-09-12 15:29:14,428 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:14.428107+00:00'}
+2026-09-12 15:29:16,614 INFO app.ai_agent: Extraction LLM du dossier : Abatoir
+2026-09-12 15:29:19,495 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:19.495320+00:00'}
+2026-09-12 15:29:21,778 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:29:21,836 INFO app.ai_agent: project.yaml écrit : Z:\Abatoir\project.yaml
+2026-09-12 15:29:23,262 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:23.262481+00:00'}
+2026-09-12 15:29:25,721 INFO app.ai_agent: Extraction LLM du dossier : Abdlaoui-Habous Tanger
+2026-09-12 15:29:27,539 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:27.539182+00:00'}
+2026-09-12 15:29:35,560 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:29:35,743 INFO app.ai_agent: project.yaml écrit : Z:\Abdlaoui-Habous Tanger\project.yaml
+2026-09-12 15:29:37,266 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:37.266151+00:00'}
+2026-09-12 15:29:39,328 INFO app.ai_agent: Extraction LLM du dossier : ABHL
+2026-09-12 15:29:40,403 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:40.403544+00:00'}
+2026-09-12 15:29:42,880 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:29:42,888 INFO app.ai_agent: project.yaml écrit : Z:\ABHL\project.yaml
+2026-09-12 15:29:44,382 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:44.382524+00:00'}
+2026-09-12 15:29:52,965 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:29:52.965460+00:00'}
+2026-09-12 15:29:53,045 INFO app.ai_agent: Extraction LLM du dossier : Abra Promo-dentiste
+2026-09-12 15:30:14,177 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:30:18,966 INFO app.ai_agent: project.yaml écrit : Z:\Abra Promo-dentiste\project.yaml
+2026-09-12 15:30:21,341 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:30:21.341950+00:00'}
+2026-09-12 15:30:23,427 INFO app.ai_agent: Extraction LLM du dossier : Abraj salam
+2026-09-12 15:30:27,193 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:30:27,224 INFO app.ai_agent: project.yaml écrit : Z:\Abraj salam\project.yaml
+2026-09-12 15:30:28,722 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:30:28.722102+00:00'}
+2026-09-12 15:30:34,358 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:30:34.358165+00:00'}
+2026-09-12 15:30:34,509 INFO app.ai_agent: Extraction LLM du dossier : academie petroliere station Ifriquia
+2026-09-12 15:30:42,556 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:30:44,995 INFO app.ai_agent: project.yaml écrit : Z:\academie petroliere station Ifriquia\project.yaml
+2026-09-12 15:30:47,331 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:30:47.331890+00:00'}
+2026-09-12 15:30:49,358 INFO app.ai_agent: Extraction LLM du dossier : Aderissa Partenaire
+2026-09-12 15:30:52,732 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:30:52,758 INFO app.ai_agent: project.yaml écrit : Z:\Aderissa Partenaire\project.yaml
+2026-09-12 15:30:54,268 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:30:54.268912+00:00'}
+2026-09-12 15:30:56,588 INFO app.ai_agent: Extraction LLM du dossier : AEP des douars relevant de la commune territoriale de souk L'QOLA
+2026-09-12 15:30:59,284 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:30:59.284693+00:00'}
+2026-09-12 15:31:01,867 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:31:02,848 INFO app.ai_agent: Adresse géocodée : Souk L'Qola, Province de Larache, Royaume du Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:31:02,874 INFO app.ai_agent: project.yaml écrit : Z:\AEP des douars relevant de la commune territoriale de souk L'QOLA\project.yaml
+2026-09-12 15:31:04,590 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:04.590775+00:00'}
+2026-09-12 15:31:06,275 WARNING app.ai_agent: Moteur Tesseract absent pour DOC291124-29112024144747.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:31:08,459 INFO app.ai_agent: Extraction LLM du dossier : Afaray
+2026-09-12 15:31:08,625 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:08.625451+00:00'}
+2026-09-12 15:31:14,775 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:31:15,071 WARNING app.ai_agent: Moteur Tesseract absent pour DOC291124-29112024144747.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:31:15,350 INFO app.ai_agent: Adresse géocodée : 35 Rue Mansour Edahbi, Bureau N43 -> (32.108608, -1.2294369)
+2026-09-12 15:31:15,374 INFO app.ai_agent: project.yaml écrit : Z:\Afaray\project.yaml
+2026-09-12 15:31:16,941 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:16.941888+00:00'}
+2026-09-12 15:31:18,971 INFO app.ai_agent: Extraction LLM du dossier : Agadir
+2026-09-12 15:31:21,882 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:21.882642+00:00'}
+2026-09-12 15:31:22,549 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:31:22,579 INFO app.ai_agent: project.yaml écrit : Z:\Agadir\project.yaml
+2026-09-12 15:31:24,177 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:24.177619+00:00'}
+2026-09-12 15:31:26,833 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:31:26,833 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:31:26,833 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:31:26,833 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:31:26,833 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:31:27,244 WARNING app.ai_agent: Moteur Tesseract absent pour 2-plan cote du T33639-06 Khalid ahrazem 2[-953M].dwgdef.dwg avec completement.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:31:29,324 INFO app.ai_agent: Extraction LLM du dossier : Ahmed Mufarrej TF33639
+2026-09-12 15:31:29,355 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:29.355521+00:00'}
+2026-09-12 15:31:37,013 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:31:37,217 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:31:37,218 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:31:37,218 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:31:37,218 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:31:37,218 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:31:37,476 WARNING app.ai_agent: Moteur Tesseract absent pour 2-plan cote du T33639-06 Khalid ahrazem 2[-953M].dwgdef.dwg avec completement.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:31:37,701 INFO app.ai_agent: Adresse non géocodée : Douar Badriouene Commune de Gzenya
+2026-09-12 15:31:37,725 INFO app.ai_agent: project.yaml écrit : Z:\Ahmed Mufarrej TF33639\project.yaml
+2026-09-12 15:31:39,248 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:39.247823+00:00'}
+2026-09-12 15:31:40,210 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:31:40,210 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:31:40,210 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:31:40,210 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:31:40,211 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:31:42,248 INFO app.ai_agent: Extraction LLM du dossier : Ahmed Mufarrej TF33640
+2026-09-12 15:31:42,443 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:42.443125+00:00'}
+2026-09-12 15:31:49,381 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:31:49,666 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:31:49,668 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:31:49,668 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:31:49,668 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:31:49,668 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:31:49,882 INFO app.ai_agent: Adresse non géocodée : Douar Badriouene Commune de Gzenya
+2026-09-12 15:31:49,909 INFO app.ai_agent: project.yaml écrit : Z:\Ahmed Mufarrej TF33640\project.yaml
+2026-09-12 15:31:51,648 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:51.648099+00:00'}
+2026-09-12 15:31:54,191 INFO app.ai_agent: Extraction LLM du dossier : ahmed soussi
+2026-09-12 15:31:55,754 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:31:55.754050+00:00'}
+2026-09-12 15:32:01,329 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:32:02,080 INFO app.ai_agent: Adresse géocodée : quartier M'ghogha, Tanger, Av. Allal Ben Abdellah nº62, Tanger -> (35.7696302, -5.8033522)
+2026-09-12 15:32:02,098 INFO app.ai_agent: project.yaml écrit : Z:\ahmed soussi\project.yaml
+2026-09-12 15:32:03,784 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:03.784749+00:00'}
+2026-09-12 15:32:07,449 INFO app.ai_agent: Extraction LLM du dossier : aicha azaouagh
+2026-09-12 15:32:09,307 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:09.307856+00:00'}
+2026-09-12 15:32:14,888 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:32:15,452 INFO app.ai_agent: project.yaml écrit : Z:\aicha azaouagh\project.yaml
+2026-09-12 15:32:16,943 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:16.943848+00:00'}
+2026-09-12 15:32:19,085 INFO app.ai_agent: Extraction LLM du dossier : Ajdir
+2026-09-12 15:32:22,918 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:22.918479+00:00'}
+2026-09-12 15:32:24,116 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:32:24,959 INFO app.ai_agent: Adresse non géocodée : Commune rurale Ait Youssef ou Ali, Houceima
+2026-09-12 15:32:24,988 INFO app.ai_agent: project.yaml écrit : Z:\Ajdir\project.yaml
+2026-09-12 15:32:26,539 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:26.539192+00:00'}
+2026-09-12 15:32:27,791 WARNING app.ai_agent: Moteur Tesseract absent pour mandatement.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:32:29,889 INFO app.ai_agent: Extraction LLM du dossier : AKar Sakan Farah
+2026-09-12 15:32:30,305 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:30.305098+00:00'}
+2026-09-12 15:32:39,082 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:32:39,515 WARNING app.ai_agent: Moteur Tesseract absent pour mandatement.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:32:39,943 INFO app.ai_agent: Adresse non géocodée : Bd MOHAMED BEN ABDELLAH TANGER
+2026-09-12 15:32:39,968 INFO app.ai_agent: project.yaml écrit : Z:\AKar Sakan Farah\project.yaml
+2026-09-12 15:32:41,497 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:41.497882+00:00'}
+2026-09-12 15:32:42,298 WARNING app.ai_agent: Moteur Tesseract absent pour Plan coté.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:32:43,969 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:43.969503+00:00'}
+2026-09-12 15:32:44,845 INFO app.ai_agent: Extraction LLM du dossier : Akaria lil istitmar
+2026-09-12 15:32:53,679 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:32:54,028 WARNING app.ai_agent: Moteur Tesseract absent pour Plan coté.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:32:54,992 INFO app.ai_agent: Adresse géocodée : 35, Résidence Maysil, Rue El -> (36.7591424, 3.0444113)
+2026-09-12 15:32:55,018 INFO app.ai_agent: project.yaml écrit : Z:\Akaria lil istitmar\project.yaml
+2026-09-12 15:32:56,893 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:32:56.893912+00:00'}
+2026-09-12 15:32:59,599 WARNING app.ai_agent: Moteur Tesseract absent pour CARTE 25000-2.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:32:59,936 WARNING app.ai_agent: Moteur Tesseract absent pour SKMBT_36325050817240.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:02,144 INFO app.ai_agent: Extraction LLM du dossier : Akdi
+2026-09-12 15:33:06,574 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:33:09,411 WARNING app.ai_agent: Moteur Tesseract absent pour CARTE 25000-2.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:09,587 WARNING app.ai_agent: Moteur Tesseract absent pour SKMBT_36325050817240.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:09,670 INFO app.ai_agent: project.yaml écrit : Z:\Akdi\project.yaml
+2026-09-12 15:33:12,210 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:12.210663+00:00'}
+2026-09-12 15:33:12,721 WARNING app.ai_agent: Moteur Tesseract absent pour fiche architecte 1.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:12,905 WARNING app.ai_agent: Moteur Tesseract absent pour fiche architecte.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:15,014 INFO app.ai_agent: Extraction LLM du dossier : Akdi Promovision
+2026-09-12 15:33:16,675 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:16.675489+00:00'}
+2026-09-12 15:33:20,493 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:33:20,781 WARNING app.ai_agent: Moteur Tesseract absent pour fiche architecte 1.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:20,928 WARNING app.ai_agent: Moteur Tesseract absent pour fiche architecte.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:22,469 INFO app.ai_agent: Adresse géocodée : Quartier Mesnana, Tanger, Royaume du Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:33:22,485 INFO app.ai_agent: project.yaml écrit : Z:\Akdi Promovision\project.yaml
+2026-09-12 15:33:23,976 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:23.976032+00:00'}
+2026-09-12 15:33:27,432 INFO app.ai_agent: Extraction LLM du dossier : Al Amana
+2026-09-12 15:33:29,649 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:29.649323+00:00'}
+2026-09-12 15:33:36,617 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:33:37,379 INFO app.ai_agent: Adresse non géocodée : Lotissement AL Majd
+2026-09-12 15:33:37,424 INFO app.ai_agent: project.yaml écrit : Z:\Al Amana\project.yaml
+2026-09-12 15:33:38,906 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:38.906177+00:00'}
+2026-09-12 15:33:40,312 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave142.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:42,379 INFO app.ai_agent: Extraction LLM du dossier : Al Bourhan
+2026-09-12 15:33:42,604 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:42.604680+00:00'}
+2026-09-12 15:33:47,339 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:33:48,435 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave142.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:33:49,148 INFO app.ai_agent: Adresse géocodée : Branes Mesnana - TANGER, Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:33:49,171 INFO app.ai_agent: project.yaml écrit : Z:\Al Bourhan\project.yaml
+2026-09-12 15:33:50,639 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:50.639312+00:00'}
+2026-09-12 15:33:52,713 INFO app.ai_agent: Extraction LLM du dossier : Al Falah
+2026-09-12 15:33:55,669 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:55.669435+00:00'}
+2026-09-12 15:33:56,059 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:33:56,081 INFO app.ai_agent: project.yaml écrit : Z:\Al Falah\project.yaml
+2026-09-12 15:33:57,564 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:33:57.564562+00:00'}
+2026-09-12 15:34:00,558 INFO app.ai_agent: Extraction LLM du dossier : Al Ikhlass Abdalas
+2026-09-12 15:34:03,835 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:03.835089+00:00'}
+2026-09-12 15:34:09,142 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:34:10,533 INFO app.ai_agent: Adresse non géocodée : 35, Résidence Maysil,
+2026-09-12 15:34:10,548 INFO app.ai_agent: project.yaml écrit : Z:\Al Ikhlass Abdalas\project.yaml
+2026-09-12 15:34:11,796 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:11.796999+00:00'}
+2026-09-12 15:34:15,004 INFO app.ai_agent: Extraction LLM du dossier : Al jadid belle maison jalili yassir
+2026-09-12 15:34:16,633 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:16.632445+00:00'}
+2026-09-12 15:34:22,246 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:34:23,007 INFO app.ai_agent: Adresse géocodée : 14 Hay Lalla Soukaina Zouagha Fès. -> (34.0179097, -5.025323)
+2026-09-12 15:34:23,060 INFO app.ai_agent: project.yaml écrit : Z:\Al jadid belle maison jalili yassir\project.yaml
+2026-09-12 15:34:24,523 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:24.523037+00:00'}
+2026-09-12 15:34:28,695 WARNING app.ai_agent: Moteur Tesseract absent pour les résidence verts A4 (1).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:34:31,285 INFO app.ai_agent: Extraction LLM du dossier : Al Karam Groupe residences vertes majorelle
+2026-09-12 15:34:31,959 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:31.959180+00:00'}
+2026-09-12 15:34:45,797 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:34:48,286 WARNING app.ai_agent: Moteur Tesseract absent pour les résidence verts A4 (1).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:34:49,529 INFO app.ai_agent: Adresse géocodée : Wilaya de Tanger, Préfecture de Tanger Asilah, C.U de Tanger, Mesnana. -> (35.7564316, -5.8583)
+2026-09-12 15:34:49,558 INFO app.ai_agent: project.yaml écrit : Z:\Al Karam Groupe residences vertes majorelle\project.yaml
+2026-09-12 15:34:51,897 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:51.897284+00:00'}
+2026-09-12 15:34:53,031 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:34:53,031 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:34:53,031 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:34:53,033 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:34:53,033 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:34:55,080 INFO app.ai_agent: Extraction LLM du dossier : AL OUROD
+2026-09-12 15:34:55,968 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:34:55.968251+00:00'}
+2026-09-12 15:34:59,980 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:35:00,199 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:35:00,199 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:35:00,200 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:35:00,200 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:35:00,200 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:35:00,925 INFO app.ai_agent: Adresse non géocodée : Beethoven II Rue Ibn Katir 5ème étage n°103 à Tanger.
+2026-09-12 15:35:00,949 INFO app.ai_agent: project.yaml écrit : Z:\AL OUROD\project.yaml
+2026-09-12 15:35:02,541 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:02.541150+00:00'}
+2026-09-12 15:35:03,388 WARNING app.ai_agent: Moteur Tesseract absent pour CIN.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:05,685 INFO app.ai_agent: Extraction LLM du dossier : Al wafae
+2026-09-12 15:35:15,931 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:35:16,236 WARNING app.ai_agent: Moteur Tesseract absent pour CIN.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:16,343 INFO app.ai_agent: project.yaml écrit : Z:\Al wafae\project.yaml
+2026-09-12 15:35:18,637 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:18.637873+00:00'}
+2026-09-12 15:35:19,016 WARNING app.ai_agent: Moteur Tesseract absent pour CONTENANCE-ALAOUI-ABDELHAFID.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:20,021 WARNING app.ai_agent: Moteur Tesseract absent pour PLANCOTEALAOUI.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:21,870 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:21.869978+00:00'}
+2026-09-12 15:35:22,364 INFO app.ai_agent: Extraction LLM du dossier : Alaoui
+2026-09-12 15:35:29,358 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:35:29,559 WARNING app.ai_agent: Moteur Tesseract absent pour CONTENANCE-ALAOUI-ABDELHAFID.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:30,037 WARNING app.ai_agent: Moteur Tesseract absent pour PLANCOTEALAOUI.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:30,086 INFO app.ai_agent: project.yaml écrit : Z:\Alaoui\project.yaml
+2026-09-12 15:35:31,599 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:31.599077+00:00'}
+2026-09-12 15:35:33,129 WARNING app.ai_agent: Moteur Tesseract absent pour Image_20250724_0001.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:34,814 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:34.814201+00:00'}
+2026-09-12 15:35:35,187 INFO app.ai_agent: Extraction LLM du dossier : Alaoui 2
+2026-09-12 15:35:38,534 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:35:39,807 WARNING app.ai_agent: Moteur Tesseract absent pour Image_20250724_0001.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:39,839 INFO app.ai_agent: project.yaml écrit : Z:\Alaoui 2\project.yaml
+2026-09-12 15:35:41,439 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:41.439597+00:00'}
+2026-09-12 15:35:41,769 WARNING app.ai_agent: Moteur Tesseract absent pour CIN-abdelhafid-el-alaoui.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:42,040 WARNING app.ai_agent: Moteur Tesseract absent pour CONTENANCE-ALAOUI-ABDELHAFID.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:42,419 WARNING app.ai_agent: Moteur Tesseract absent pour PLAN COTE ALAOUI.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:42,767 WARNING app.ai_agent: Moteur Tesseract absent pour PLAN-CADASTRALE--ABDELHAFID-EL-ALAOUI.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:43,607 WARNING app.ai_agent: Moteur Tesseract absent pour lettre ABHL.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:43,811 WARNING app.ai_agent: Moteur Tesseract absent pour lettre.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:46,380 INFO app.ai_agent: Extraction LLM du dossier : Alaoui abdelhafid
+2026-09-12 15:35:53,303 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:35:53,522 WARNING app.ai_agent: Moteur Tesseract absent pour CIN-abdelhafid-el-alaoui.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:53,712 WARNING app.ai_agent: Moteur Tesseract absent pour CONTENANCE-ALAOUI-ABDELHAFID.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:54,001 WARNING app.ai_agent: Moteur Tesseract absent pour PLAN COTE ALAOUI.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:54,260 WARNING app.ai_agent: Moteur Tesseract absent pour PLAN-CADASTRALE--ABDELHAFID-EL-ALAOUI.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:54,532 WARNING app.ai_agent: Moteur Tesseract absent pour lettre ABHL.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:54,668 WARNING app.ai_agent: Moteur Tesseract absent pour lettre.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:35:54,779 INFO app.ai_agent: project.yaml écrit : Z:\Alaoui abdelhafid\project.yaml
+2026-09-12 15:35:57,028 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:35:57.028726+00:00'}
+2026-09-12 15:35:58,337 WARNING app.ai_agent: Moteur Tesseract absent pour Courbe de niveau.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:36:00,494 WARNING app.ai_agent: Moteur Tesseract absent pour PLANdassainissementAliaGarden.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:36:00,502 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:36:00.502952+00:00'}
+2026-09-12 15:36:02,717 INFO app.ai_agent: Extraction LLM du dossier : ALIA Garden
+2026-09-12 15:36:12,594 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:36:13,456 WARNING app.ai_agent: Moteur Tesseract absent pour Courbe de niveau.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:36:15,098 WARNING app.ai_agent: Moteur Tesseract absent pour PLANdassainissementAliaGarden.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:36:15,522 INFO app.ai_agent: Adresse non géocodée : Harrarine - Sidi Driss
+2026-09-12 15:36:15,539 INFO app.ai_agent: project.yaml écrit : Z:\ALIA Garden\project.yaml
+2026-09-12 15:36:17,862 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:36:17.862972+00:00'}
+2026-09-12 15:36:22,276 INFO app.ai_agent: Extraction LLM du dossier : Alia Verde Hassani
+2026-09-12 15:36:33,073 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:36:33,899 INFO app.ai_agent: project.yaml écrit : Z:\Alia Verde Hassani\project.yaml
+2026-09-12 15:36:36,240 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:36:36.240494+00:00'}
+2026-09-12 15:36:38,594 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:36:38.594535+00:00'}
+2026-09-12 15:36:38,740 INFO app.ai_agent: Extraction LLM du dossier : ALIAMAR
+2026-09-12 15:36:48,611 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:36:49,387 INFO app.ai_agent: Adresse géocodée : Tétouan, Vallée de l'Oued Martil, Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:36:49,413 INFO app.ai_agent: project.yaml écrit : Z:\ALIAMAR\project.yaml
+2026-09-12 15:36:51,579 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:36:51.579303+00:00'}
+2026-09-12 15:36:54,042 INFO app.ai_agent: Extraction LLM du dossier : Allaoui
+2026-09-12 15:36:59,496 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:37:00,030 INFO app.ai_agent: Adresse non géocodée : N°148 LOT ENNASSR TAOURIRT
+2026-09-12 15:37:00,053 INFO app.ai_agent: project.yaml écrit : Z:\Allaoui\project.yaml
+2026-09-12 15:37:01,612 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:01.612397+00:00'}
+2026-09-12 15:37:04,352 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:04.352869+00:00'}
+2026-09-12 15:37:04,481 INFO app.ai_agent: Extraction LLM du dossier : Altea View
+2026-09-12 15:37:13,693 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:37:15,447 INFO app.ai_agent: Adresse non géocodée : Préfecture de Tanger-Asilah, Arrondissement de Tanger-Médina, Quartier Merkala
+2026-09-12 15:37:15,466 INFO app.ai_agent: project.yaml écrit : Z:\Altea View\project.yaml
+2026-09-12 15:37:17,591 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:17.591945+00:00'}
+2026-09-12 15:37:19,708 INFO app.ai_agent: Extraction LLM du dossier : Aluminium du Maroc
+2026-09-12 15:37:22,883 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:22.883110+00:00'}
+2026-09-12 15:37:24,220 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:37:24,815 INFO app.ai_agent: Adresse non géocodée : Zone Industrielle – Route de Tétouan – BP 324 – 90000 Tanger – Maroc
+2026-09-12 15:37:24,839 INFO app.ai_agent: project.yaml écrit : Z:\Aluminium du Maroc\project.yaml
+2026-09-12 15:37:26,288 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:26.288328+00:00'}
+2026-09-12 15:37:26,653 WARNING app.ai_agent: Moteur Tesseract absent pour Amal1_Fiche tech archi.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:37:26,909 WARNING app.ai_agent: Moteur Tesseract absent pour CERTIFICAT DE PROPRIETE.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:37:27,076 WARNING app.ai_agent: Moteur Tesseract absent pour CIN MED BOULAICH.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:37:30,345 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:30.345351+00:00'}
+2026-09-12 15:37:30,415 INFO app.ai_agent: Extraction LLM du dossier : Amal 1
+2026-09-12 15:37:41,820 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:37:41,971 WARNING app.ai_agent: Moteur Tesseract absent pour Amal1_Fiche tech archi.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:37:42,147 WARNING app.ai_agent: Moteur Tesseract absent pour CERTIFICAT DE PROPRIETE.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:37:42,270 WARNING app.ai_agent: Moteur Tesseract absent pour CIN MED BOULAICH.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:37:43,637 INFO app.ai_agent: Adresse géocodée : PLACE DE LA LIGUE ARABE 7°ETAGE ROUTE DE TETOUAN, Tanger -> (35.7696302, -5.8033522)
+2026-09-12 15:37:43,667 INFO app.ai_agent: project.yaml écrit : Z:\Amal 1\project.yaml
+2026-09-12 15:37:45,711 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:45.711461+00:00'}
+2026-09-12 15:37:47,752 INFO app.ai_agent: Extraction LLM du dossier : amaral 3
+2026-09-12 15:37:48,723 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:48.723300+00:00'}
+2026-09-12 15:37:51,174 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:37:51,202 INFO app.ai_agent: project.yaml écrit : Z:\amaral 3\project.yaml
+2026-09-12 15:37:52,556 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:52.556052+00:00'}
+2026-09-12 15:37:56,161 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:37:56.161265+00:00'}
+2026-09-12 15:37:56,456 INFO app.ai_agent: Extraction LLM du dossier : Amical Bahia
+2026-09-12 15:38:05,813 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:38:06,529 INFO app.ai_agent: project.yaml écrit : Z:\Amical Bahia\project.yaml
+2026-09-12 15:38:08,139 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:38:08.139828+00:00'}
+2026-09-12 15:38:09,559 WARNING app.ai_agent: Moteur Tesseract absent pour AMENDIS (Mandatement du BET SAMA CONCEPT ,Etude technique du Reseau ...).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:09,753 WARNING app.ai_agent: Moteur Tesseract absent pour ATTESTATION D'INSCRIPTION A LA TAXE PROFESSIONNELLE COOPERATIVE.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:12,105 WARNING app.ai_agent: Moteur Tesseract absent pour plan modificatif -2022-Amendis.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:12,560 WARNING app.ai_agent: Moteur Tesseract absent pour AMENDIS (Mandatement du BET SAMA CONCEPT ,Etude technique du Reseau ...).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:14,721 INFO app.ai_agent: Extraction LLM du dossier : Amicale Wafae
+2026-09-12 15:38:26,692 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:38:27,661 WARNING app.ai_agent: Moteur Tesseract absent pour AMENDIS (Mandatement du BET SAMA CONCEPT ,Etude technique du Reseau ...).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:27,819 WARNING app.ai_agent: Moteur Tesseract absent pour ATTESTATION D'INSCRIPTION A LA TAXE PROFESSIONNELLE COOPERATIVE.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:29,675 WARNING app.ai_agent: Moteur Tesseract absent pour plan modificatif -2022-Amendis.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:29,973 WARNING app.ai_agent: Moteur Tesseract absent pour AMENDIS (Mandatement du BET SAMA CONCEPT ,Etude technique du Reseau ...).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:30,301 INFO app.ai_agent: Adresse géocodée : Boulevard Moulay Rachid, -> (31.6325421, -8.013251)
+2026-09-12 15:38:30,321 INFO app.ai_agent: project.yaml écrit : Z:\Amicale Wafae\project.yaml
+2026-09-12 15:38:32,571 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:38:32.571230+00:00'}
+2026-09-12 15:38:35,598 INFO app.ai_agent: Extraction LLM du dossier : Amine Akhrif
+2026-09-12 15:38:37,298 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:38:37.298186+00:00'}
+2026-09-12 15:38:43,082 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:38:43,320 INFO app.ai_agent: project.yaml écrit : Z:\Amine Akhrif\project.yaml
+2026-09-12 15:38:44,803 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:38:44.803463+00:00'}
+2026-09-12 15:38:47,087 WARNING app.ai_agent: Moteur Tesseract absent pour 124-ASS-TP TP (1).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:47,381 WARNING app.ai_agent: Moteur Tesseract absent pour 1.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:47,635 WARNING app.ai_agent: Moteur Tesseract absent pour 10.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:48,052 WARNING app.ai_agent: Moteur Tesseract absent pour AMWAJ Lotissement ASSILAH Mdf -scan .pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:38:50,264 INFO app.ai_agent: Extraction LLM du dossier : Amouage
+2026-09-12 15:38:50,338 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:38:50.338042+00:00'}
+2026-09-12 15:39:02,022 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:39:03,407 WARNING app.ai_agent: Moteur Tesseract absent pour 124-ASS-TP TP (1).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:03,552 WARNING app.ai_agent: Moteur Tesseract absent pour 1.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:03,707 WARNING app.ai_agent: Moteur Tesseract absent pour 10.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:03,967 WARNING app.ai_agent: Moteur Tesseract absent pour AMWAJ Lotissement ASSILAH Mdf -scan .pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:04,759 INFO app.ai_agent: Adresse géocodée : Brig Bouthib, Assilah, Tanger, Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:39:04,809 INFO app.ai_agent: project.yaml écrit : Z:\Amouage\project.yaml
+2026-09-12 15:39:07,135 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:07.135749+00:00'}
+2026-09-12 15:39:11,900 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:11.900970+00:00'}
+2026-09-12 15:39:12,827 INFO app.ai_agent: Extraction LLM du dossier : Amrani
+2026-09-12 15:39:17,373 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:39:21,120 INFO app.ai_agent: project.yaml écrit : Z:\Amrani\project.yaml
+2026-09-12 15:39:22,705 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:22.705938+00:00'}
+2026-09-12 15:39:26,390 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:26.389354+00:00'}
+2026-09-12 15:39:26,573 INFO app.ai_agent: Extraction LLM du dossier : AMSA
+2026-09-12 15:39:32,610 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:39:33,358 INFO app.ai_agent: Adresse géocodée : Commune de Zaouiat Sidi Kacem, Lieu Dit: Amssa, Wilaya de Tanger-Tétouan-Al Hoceima, Préfecture de Tétouan, Royaume du Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:39:33,384 INFO app.ai_agent: project.yaml écrit : Z:\AMSA\project.yaml
+2026-09-12 15:39:34,888 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:34.888010+00:00'}
+2026-09-12 15:39:35,556 WARNING app.ai_agent: Moteur Tesseract absent pour plan d'assainissement.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:36,362 WARNING app.ai_agent: Moteur Tesseract absent pour plan de masse.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:37,595 WARNING app.ai_agent: Moteur Tesseract absent pour plan de nettoyage.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:39,339 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:39.339185+00:00'}
+2026-09-12 15:39:39,679 INFO app.ai_agent: Extraction LLM du dossier : Aménagement falaise HAFA
+2026-09-12 15:39:45,353 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:39:45,844 WARNING app.ai_agent: Moteur Tesseract absent pour plan d'assainissement.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:46,503 WARNING app.ai_agent: Moteur Tesseract absent pour plan de masse.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:47,522 WARNING app.ai_agent: Moteur Tesseract absent pour plan de nettoyage.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:47,581 INFO app.ai_agent: project.yaml écrit : Z:\Aménagement falaise HAFA\project.yaml
+2026-09-12 15:39:49,081 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:49.081399+00:00'}
+2026-09-12 15:39:49,915 WARNING app.ai_agent: Moteur Tesseract absent pour Engagement nourrices.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:50,088 WARNING app.ai_agent: Moteur Tesseract absent pour Engagement Surpresseur.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:39:52,762 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:39:52.762323+00:00'}
+2026-09-12 15:39:52,978 INFO app.ai_agent: Extraction LLM du dossier : Anouar
+2026-09-12 15:40:04,995 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:40:05,170 WARNING app.ai_agent: Moteur Tesseract absent pour Engagement nourrices.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:40:05,308 WARNING app.ai_agent: Moteur Tesseract absent pour Engagement Surpresseur.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:40:05,637 INFO app.ai_agent: project.yaml écrit : Z:\Anouar\project.yaml
+2026-09-12 15:40:07,845 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:07.845698+00:00'}
+2026-09-12 15:40:09,926 INFO app.ai_agent: Extraction LLM du dossier : Aouamia
+2026-09-12 15:40:11,210 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:11.210531+00:00'}
+2026-09-12 15:40:13,479 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:40:13,503 INFO app.ai_agent: project.yaml écrit : Z:\Aouamia\project.yaml
+2026-09-12 15:40:14,981 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:14.981664+00:00'}
+2026-09-12 15:40:17,797 INFO app.ai_agent: Extraction LLM du dossier : APM
+2026-09-12 15:40:18,655 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:18.655701+00:00'}
+2026-09-12 15:40:21,784 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:40:22,253 INFO app.ai_agent: project.yaml écrit : Z:\APM\project.yaml
+2026-09-12 15:40:23,738 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:23.738656+00:00'}
+2026-09-12 15:40:25,937 INFO app.ai_agent: Extraction LLM du dossier : Appel d'offre
+2026-09-12 15:40:26,076 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:26.076258+00:00'}
+2026-09-12 15:40:30,826 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:40:31,282 INFO app.ai_agent: Adresse géocodée : Commune de Bouznika, préfecture de Benslimane, Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:40:31,307 INFO app.ai_agent: project.yaml écrit : Z:\Appel d'offre\project.yaml
+2026-09-12 15:40:32,928 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:32.928195+00:00'}
+2026-09-12 15:40:37,309 INFO app.ai_agent: Extraction LLM du dossier : Arbaii
+2026-09-12 15:40:47,698 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:40:48,850 INFO app.ai_agent: project.yaml écrit : Z:\Arbaii\project.yaml
+2026-09-12 15:40:51,143 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:40:51.143181+00:00'}
+2026-09-12 15:40:55,352 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave361.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:40:59,020 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave362.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:02,624 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave363.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:05,902 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave364.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:08,859 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave365.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:11,899 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave366.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:14,989 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave367.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:17,101 WARNING app.ai_agent: Moteur Tesseract absent pour plh etg1 station de service-15052025100130.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:32,862 WARNING app.ai_agent: Moteur Tesseract absent pour plan 2.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:39,695 INFO app.ai_agent: Extraction LLM du dossier : ARI investments
+2026-09-12 15:41:51,710 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:41:55,252 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave361.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:41:58,851 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave362.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:02,310 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave363.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:05,511 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave364.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:08,306 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave365.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:11,304 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave366.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:14,293 WARNING app.ai_agent: Moteur Tesseract absent pour Plotwave367.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:15,780 WARNING app.ai_agent: Moteur Tesseract absent pour plh etg1 station de service-15052025100130.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:31,431 WARNING app.ai_agent: Moteur Tesseract absent pour plan 2.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:36,460 INFO app.ai_agent: project.yaml écrit : Z:\ARI investments\project.yaml
+2026-09-12 15:42:38,786 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:42:38.786730+00:00'}
+2026-09-12 15:42:45,076 WARNING app.ai_agent: Moteur Tesseract absent pour DOC020425-02042025133845.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:46,680 WARNING app.ai_agent: Moteur Tesseract absent pour DOC230425-23042025133100.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:47,138 WARNING app.ai_agent: Moteur Tesseract absent pour DOC230425-23042025143438.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:47,496 WARNING app.ai_agent: Moteur Tesseract absent pour hors site eau potable.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:42:49,859 INFO app.ai_agent: Extraction LLM du dossier : Asilah
+2026-09-12 15:43:07,517 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:43:11,793 WARNING app.ai_agent: Moteur Tesseract absent pour DOC020425-02042025133845.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:12,389 WARNING app.ai_agent: Moteur Tesseract absent pour DOC230425-23042025133100.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:12,660 WARNING app.ai_agent: Moteur Tesseract absent pour DOC230425-23042025143438.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:12,903 WARNING app.ai_agent: Moteur Tesseract absent pour hors site eau potable.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:13,118 INFO app.ai_agent: project.yaml écrit : Z:\Asilah\project.yaml
+2026-09-12 15:43:16,048 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:16.048570+00:00'}
+2026-09-12 15:43:18,136 INFO app.ai_agent: Extraction LLM du dossier : Assaâda
+2026-09-12 15:43:19,314 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:19.314151+00:00'}
+2026-09-12 15:43:22,203 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:43:22,228 INFO app.ai_agent: project.yaml écrit : Z:\Assaâda\project.yaml
+2026-09-12 15:43:23,737 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:23.737897+00:00'}
+2026-09-12 15:43:25,786 INFO app.ai_agent: Extraction LLM du dossier : association PHILLINE
+2026-09-12 15:43:26,847 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:26.847953+00:00'}
+2026-09-12 15:43:29,102 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:43:29,132 INFO app.ai_agent: project.yaml écrit : Z:\association PHILLINE\project.yaml
+2026-09-12 15:43:30,619 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:30.619827+00:00'}
+2026-09-12 15:43:31,354 WARNING app.ai_agent: Moteur Tesseract absent pour Plan 1.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:32,004 WARNING app.ai_agent: Moteur Tesseract absent pour Plan 2.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:32,900 WARNING app.ai_agent: Moteur Tesseract absent pour Plan 3.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:34,398 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:34.398614+00:00'}
+2026-09-12 15:43:34,963 INFO app.ai_agent: Extraction LLM du dossier : Association tadamoun
+2026-09-12 15:43:38,392 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:43:39,032 WARNING app.ai_agent: Moteur Tesseract absent pour Plan 1.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:39,637 WARNING app.ai_agent: Moteur Tesseract absent pour Plan 2.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:40,348 WARNING app.ai_agent: Moteur Tesseract absent pour Plan 3.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:43:40,379 INFO app.ai_agent: project.yaml écrit : Z:\Association tadamoun\project.yaml
+2026-09-12 15:43:42,019 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:42.019493+00:00'}
+2026-09-12 15:43:45,552 INFO app.ai_agent: Extraction LLM du dossier : Atalantic Garden
+2026-09-12 15:43:47,550 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:47.550111+00:00'}
+2026-09-12 15:43:53,656 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:43:54,660 INFO app.ai_agent: project.yaml écrit : Z:\Atalantic Garden\project.yaml
+2026-09-12 15:43:56,168 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:43:56.168319+00:00'}
+2026-09-12 15:43:59,838 INFO app.ai_agent: Extraction LLM du dossier : Auto Hall
+2026-09-12 15:44:00,504 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:00.504905+00:00'}
+2026-09-12 15:44:09,590 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:44:10,169 INFO app.ai_agent: project.yaml écrit : Z:\Auto Hall\project.yaml
+2026-09-12 15:44:11,775 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:11.775253+00:00'}
+2026-09-12 15:44:12,289 WARNING app.ai_agent: Moteur Tesseract absent pour DOSSIER ADMIN-01022016152754.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:44:12,541 WARNING app.ai_agent: Moteur Tesseract absent pour FICHE ARCHITECT-01022016152714.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:44:12,857 WARNING app.ai_agent: Moteur Tesseract absent pour lettre de mandatement aya + ikhlas.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:44:14,743 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:14.743890+00:00'}
+2026-09-12 15:44:17,082 INFO app.ai_agent: Extraction LLM du dossier : Aya
+2026-09-12 15:44:22,856 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:44:23,041 WARNING app.ai_agent: Moteur Tesseract absent pour DOSSIER ADMIN-01022016152754.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:44:23,153 WARNING app.ai_agent: Moteur Tesseract absent pour FICHE ARCHITECT-01022016152714.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:44:23,360 WARNING app.ai_agent: Moteur Tesseract absent pour lettre de mandatement aya + ikhlas.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:44:25,576 INFO app.ai_agent: Adresse non géocodée : Douar Aouama  - Tanger
+2026-09-12 15:44:25,601 INFO app.ai_agent: project.yaml écrit : Z:\Aya\project.yaml
+2026-09-12 15:44:27,547 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:27.547572+00:00'}
+2026-09-12 15:44:30,666 INFO app.ai_agent: Extraction LLM du dossier : Azhar -1 Route achakar
+2026-09-12 15:44:41,428 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:44:43,684 INFO app.ai_agent: Adresse non géocodée : Lotissement AL Majd
+2026-09-12 15:44:43,706 INFO app.ai_agent: project.yaml écrit : Z:\Azhar -1 Route achakar\project.yaml
+2026-09-12 15:44:45,973 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:45.973149+00:00'}
+2026-09-12 15:44:48,025 INFO app.ai_agent: Extraction LLM du dossier : Azrou
+2026-09-12 15:44:51,591 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:51.591891+00:00'}
+2026-09-12 15:44:51,713 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:44:51,739 INFO app.ai_agent: project.yaml écrit : Z:\Azrou\project.yaml
+2026-09-12 15:44:53,288 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:44:53.288642+00:00'}
+2026-09-12 15:44:55,351 INFO app.ai_agent: Extraction LLM du dossier : bab andalous
+2026-09-12 15:44:58,611 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:44:58,639 INFO app.ai_agent: project.yaml écrit : Z:\bab andalous\project.yaml
+2026-09-12 15:45:00,184 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:00.184596+00:00'}
+2026-09-12 15:45:02,257 INFO app.ai_agent: Extraction LLM du dossier : bademas
+2026-09-12 15:45:04,775 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:04.775884+00:00'}
+2026-09-12 15:45:05,480 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:45:05,503 INFO app.ai_agent: project.yaml écrit : Z:\bademas\project.yaml
+2026-09-12 15:45:07,065 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:07.065805+00:00'}
+2026-09-12 15:45:08,311 WARNING app.ai_agent: Moteur Tesseract absent pour PLAN DE RECOLEMENT DU T.11212-G.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:45:10,398 INFO app.ai_agent: Extraction LLM du dossier : bades
+2026-09-12 15:45:12,299 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:12.299283+00:00'}
+2026-09-12 15:45:13,545 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:45:14,683 WARNING app.ai_agent: Moteur Tesseract absent pour PLAN DE RECOLEMENT DU T.11212-G.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:45:14,711 INFO app.ai_agent: project.yaml écrit : Z:\bades\project.yaml
+2026-09-12 15:45:16,226 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:16.226887+00:00'}
+2026-09-12 15:45:19,471 INFO app.ai_agent: Extraction LLM du dossier : Badr
+2026-09-12 15:45:19,780 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:19.780971+00:00'}
+2026-09-12 15:45:34,461 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:45:34,840 INFO app.ai_agent: project.yaml écrit : Z:\Badr\project.yaml
+2026-09-12 15:45:37,302 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:45:37.302261+00:00'}
+2026-09-12 15:45:48,399 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:45:48,399 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:45:48,399 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:45:48,399 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:45:48,400 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:45:50,470 INFO app.ai_agent: Extraction LLM du dossier : Batisolide
+2026-09-12 15:45:59,601 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:46:07,359 INFO ezdxf: creating ACAD_COLOR dictionary
+2026-09-12 15:46:07,359 INFO ezdxf: creating ACAD_MATERIAL dictionary
+2026-09-12 15:46:07,360 INFO ezdxf: creating ACAD_MLINESTYLE dictionary
+2026-09-12 15:46:07,360 INFO ezdxf: creating ACAD_SCALELIST dictionary
+2026-09-12 15:46:07,360 INFO ezdxf: creating ACAD_VISUALSTYLE dictionary
+2026-09-12 15:46:07,397 INFO app.ai_agent: project.yaml écrit : Z:\Batisolide\project.yaml
+2026-09-12 15:46:09,833 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:46:09.833577+00:00'}
+2026-09-12 15:46:10,313 WARNING app.ai_agent: Moteur Tesseract absent pour DETAIL TYPE OUVRAGES DE REJET ET DEVERSOIR D ORAGE Model (1).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:46:10,741 WARNING app.ai_agent: Moteur Tesseract absent pour DETAILS DO ET OR ET PL.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:46:37,244 INFO app.ai_agent: Extraction LLM du dossier : Bayt Al Bahr
+2026-09-12 15:46:46,930 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:46:47,327 WARNING app.ai_agent: Moteur Tesseract absent pour DETAIL TYPE OUVRAGES DE REJET ET DEVERSOIR D ORAGE Model (1).pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:46:47,723 WARNING app.ai_agent: Moteur Tesseract absent pour DETAILS DO ET OR ET PL.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:47:12,024 INFO app.ai_agent: Adresse géocodée : Sis Assilah lieu-dit BOUGUANOUNE, Préfecture de Tanger Asilah, Royaume du Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:47:12,081 INFO app.ai_agent: project.yaml écrit : Z:\Bayt Al Bahr\project.yaml
+2026-09-12 15:47:14,436 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:47:14.436383+00:00'}
+2026-09-12 15:47:19,912 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:47:19.912508+00:00'}
+2026-09-12 15:47:20,144 INFO app.ai_agent: Extraction LLM du dossier : Bayt Al Bahr 2
+2026-09-12 15:47:32,859 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:47:35,553 INFO app.ai_agent: project.yaml écrit : Z:\Bayt Al Bahr 2\project.yaml
+2026-09-12 15:47:37,919 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:47:37.919584+00:00'}
+2026-09-12 15:47:40,548 INFO app.ai_agent: Extraction LLM du dossier : Bel
+2026-09-12 15:47:47,354 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:47:48,177 INFO app.ai_agent: Adresse géocodée : Zone Industrielle Moghogha 90000 Tanger, Maroc -> (28.3347722, -10.3713379)
+2026-09-12 15:47:48,198 INFO app.ai_agent: project.yaml écrit : Z:\Bel\project.yaml
+2026-09-12 15:47:50,284 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:47:50.284809+00:00'}
+2026-09-12 15:47:52,430 WARNING app.ai_agent: Moteur Tesseract absent pour DOC210426-21042026103243.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:47:52,943 WARNING app.ai_agent: Moteur Tesseract absent pour DEMANDE ASSAINISSEMENT.pdf : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:47:55,144 INFO app.ai_agent: Extraction LLM du dossier : Belazur
+2026-09-12 15:47:57,447 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-12 15:47:57,447 WARNING app.ai_agent: Extraction IA impossible pour Belazur : Error code: 400 - {'error': 'Engine protocol predict request returned 400: {"error":{"code":400,"message":"request (137402 tokens) exceeds the available context size (107776 tokens), try increasing it","type":"exceed_context_size_error","n_prompt_tokens":137402,"n_ctx":107776}}'}
+2026-09-12 15:47:57,448 INFO app.ai_agent: project.yaml existant conservé : Z:\Belazur\project.yaml
+2026-09-12 15:47:58,951 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:47:58.951164+00:00'}
+2026-09-12 15:48:06,427 INFO app.ai_agent: Extraction LLM du dossier : Belhaj
+2026-09-12 15:48:13,656 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:48:17,110 INFO app.ai_agent: project.yaml écrit : Z:\Belhaj\project.yaml
+2026-09-12 15:48:19,545 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:19.544421+00:00'}
+2026-09-12 15:48:22,445 INFO app.ai_agent: Extraction LLM du dossier : Belle Vue
+2026-09-12 15:48:33,130 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:48:33,692 INFO app.ai_agent: Adresse géocodée : COMMUNE HOCEIMA -> (35.7675258, -5.793603)
+2026-09-12 15:48:33,728 INFO app.ai_agent: project.yaml écrit : Z:\Belle Vue\project.yaml
+2026-09-12 15:48:36,091 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:36.091086+00:00'}
+2026-09-12 15:48:38,151 INFO app.ai_agent: Extraction LLM du dossier : bellouzo
+2026-09-12 15:48:41,627 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:48:41,651 INFO app.ai_agent: project.yaml écrit : Z:\bellouzo\project.yaml
+2026-09-12 15:48:43,142 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:43.142342+00:00'}
+2026-09-12 15:48:47,083 INFO app.ai_agent: Extraction LLM du dossier : belouidane
+2026-09-12 15:48:47,904 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:47.904871+00:00'}

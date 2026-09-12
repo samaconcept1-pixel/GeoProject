@@ -152,6 +152,55 @@ def test_needs_ai_ne_reescrit_pas_sans_llm(tmp_path):
     assert data["nom_projet"] == "Original"
 
 
+def test_sync_nactive_jamais_la_recreation(tmp_path, monkeypatch):
+    root = tmp_path / "projets"
+    folder = root / "PROJ_A"
+    folder.mkdir(parents=True)
+    (folder / "project.yaml").write_text(
+        yaml.safe_dump({"id": "A", "nom_projet": "Original"}),
+        encoding="utf-8",
+    )
+
+    worker, _ = make_worker(tmp_path, "projets")
+    calls = []
+
+    def recreate(folder, use_llm=False):
+        calls.append((folder.name, use_llm))
+        return folder / "project.yaml"
+
+    monkeypatch.setattr(worker.agent, "process_folder", recreate)
+    worker.sync_once()
+
+    assert calls == [("PROJ_A", False)]
+
+
+def test_extraction_manuelle_recree_les_yaml_si_active(tmp_path, monkeypatch):
+    root = tmp_path / "projets"
+    folder = root / "PROJ_A"
+    folder.mkdir(parents=True)
+    (folder / "project.yaml").write_text(
+        yaml.safe_dump({"id": "A", "nom_projet": "Original"}),
+        encoding="utf-8",
+    )
+
+    worker, _ = make_worker(tmp_path, "projets")
+    worker.cfg.app.recreate_yaml = True
+    worker.agent.api_key = "test"
+    calls = []
+
+    monkeypatch.setattr(worker, "_needs_ai", lambda current_folder: False)
+
+    def recreate(current_folder, use_llm=False):
+        calls.append((current_folder.name, use_llm))
+        return current_folder / "project.yaml"
+
+    monkeypatch.setattr(worker.agent, "process_folder", recreate)
+    monkeypatch.setattr(worker, "sync_once", lambda: {})
+    worker._ai_job()
+
+    assert calls == [("PROJ_A", True)]
+
+
 def test_job_extraction_ai_traite_et_indexe(tmp_path, monkeypatch):
     """Le robot AI (manuel) extrait dossier par dossier et indexe à chaque pas."""
     from types import SimpleNamespace

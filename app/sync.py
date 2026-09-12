@@ -104,7 +104,11 @@ class SyncWorker:
                 with self._ai_lock:
                     self.ai_status["current"] = folder.name
                 try:
-                    if self.agent.enabled and not self._needs_ai(folder):
+                    if (
+                        self.agent.enabled
+                        and not self.cfg.app.recreate_yaml
+                        and not self._needs_ai(folder)
+                    ):
                         with self._ai_lock:
                             self.ai_status["skipped"] += 1
                             self.ai_status["done"] += 1
@@ -163,9 +167,8 @@ class SyncWorker:
 
         for folder in folders:
             try:
-                # Indexation seule : jamais d'appel LLM ici (la synchro doit
-                # rester instantanée). Un dossier sans project.yaml reçoit un
-                # fichier minimal ; les yaml existants ne sont pas réécrits.
+                # L'indexation automatique ne lance jamais l'extraction LLM.
+                # La recréation éventuelle est réservée au bouton d'extraction.
                 self.agent.process_folder(folder)
                 yaml_path = folder / "project.yaml"
                 model = parse_project_yaml(yaml_path)

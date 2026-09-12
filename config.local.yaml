@@ -3,13 +3,14 @@
 # Pointe sur les projets d'exemple fournis avec le dépôt.
 
 app:
-  projects_root_dir: "./sample_projects"
+  projects_root_dir: "Z:\\"
   # Optionnel : URL de base des dossiers projets si servis par un serveur
   # externe (ex : "http://192.168.1.50:8080/data/projects").
   # Vide (défaut) = les dossiers sont servis par l'application elle-même
   # sous /projects (lien auto : https://<serveur>/projects/<dossier>/).
   projects_base_url: ""
   sync_interval_minutes: 15
+  recreate_yaml: true
   host: "0.0.0.0"
   port: 8000
   db_path: "data/sqlite.db"
@@ -20,7 +21,7 @@ llm_agent:
   # (mode hors ligne = clé vide).
   base_url: "http://localhost:1234/v1"
   api_key: "lm-studio"
-  model: "ornith-1.5-9b-abliterated-mlx"
+  model: "ornith-1.0-9b"
   temperature: 0.0
   reasoning_effort: "none"
   max_tokens: 800

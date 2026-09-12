@@ -20,6 +20,7 @@ class AppConfig(BaseModel):
     # Vide = aucun lien cliquable exposé dans l'interface.
     projects_base_url: str = ""
     sync_interval_minutes: int = 15
+    recreate_yaml: bool = False
     host: str = "0.0.0.0"
     port: int = 8000
     db_path: str = "data/sqlite.db"

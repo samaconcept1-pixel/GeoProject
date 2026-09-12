@@ -9,6 +9,7 @@ app:
   # sous /projects (lien auto : https://<serveur>/projects/<dossier>/).
   projects_base_url: ""
   sync_interval_minutes: 15
+  recreate_yaml: false             # le bouton d'extraction réécrit aussi les YAML existants
   host: "0.0.0.0"
   port: 8000
   db_path: "data/sqlite.db"

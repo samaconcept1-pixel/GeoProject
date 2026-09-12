@@ -75,6 +75,7 @@ app:
                                         # (ex : http://192.168.1.50:8080/data/projects).
                                         # Vide = servis par l'app via /projects
   sync_interval_minutes: 15             # intervalle du worker de fond
+  recreate_yaml: false                  # le bouton d'extraction réécrit aussi les YAML existants
   db_path: "data/sqlite.db"             # cache SQLite
 
 llm_agent:
