@@ -874,3 +874,8 @@ INFO:     127.0.0.1:50558 - "GET /api/stats HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /api/extract/status HTTP/1.1" 200 OK

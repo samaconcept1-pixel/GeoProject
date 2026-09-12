@@ -560,3 +560,12 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 2026-09-12 15:48:43,142 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:43.142342+00:00'}
 2026-09-12 15:48:47,083 INFO app.ai_agent: Extraction LLM du dossier : belouidane
 2026-09-12 15:48:47,904 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:47.904871+00:00'}
+2026-09-12 15:48:55,720 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:48:56,424 INFO app.ai_agent: project.yaml écrit : Z:\belouidane\project.yaml
+2026-09-12 15:48:57,959 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:48:57.959233+00:00'}
+2026-09-12 15:49:02,281 WARNING app.ai_agent: Moteur Tesseract absent pour Temp00115.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:49:02,870 INFO app.sync: Synchro terminée : {'status': 'ok', 'dossiers_scannes': 463, 'projets_indexes': 463, 'erreurs': 0, 'derniere_sync': '2026-09-12T14:49:02.870595+00:00'}
+2026-09-12 15:49:04,345 INFO app.ai_agent: Extraction LLM du dossier : Ben mes3oud
+2026-09-12 15:49:07,930 INFO httpx2: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 15:49:10,241 WARNING app.ai_agent: Moteur Tesseract absent pour Temp00115.PDF : tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-09-12 15:49:10,273 INFO app.ai_agent: project.yaml écrit : Z:\Ben mes3oud\project.yaml
